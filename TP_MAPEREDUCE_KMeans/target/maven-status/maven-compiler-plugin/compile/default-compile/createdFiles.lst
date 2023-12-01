@@ -1,0 +1,5 @@
+org\example\kmeans\DataPoint.class
+org\example\kmeans\KMeansMapper.class
+org\example\kmeans\KMeansDriver.class
+org\example\kmeans\Centroid.class
+org\example\kmeans\KMeansReducer.class
