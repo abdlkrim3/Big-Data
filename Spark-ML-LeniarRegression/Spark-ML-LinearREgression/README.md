@@ -5,7 +5,6 @@ This repository contains two examples of Spark ML projects: Linear Regression an
 ## Linear Regression
 
 ### Overview
-
 The Linear Regression example demonstrates how to use Spark MLlib to build a simple linear regression model for predicting sales based on advertising spending on TV, Radio, and Newspaper.
 
 ### Prerequisites
@@ -14,7 +13,7 @@ Make sure you have the following installed:
 
 - Java
 - Apache Spark
-- Maven (if building the project)
+- Maven 
 
 ### Getting Started
 
@@ -22,7 +21,14 @@ Make sure you have the following installed:
 2. Download the advertising.csv dataset and place it in the project directory.
 3. Run the LR class to train the linear regression model:
 ### Outpute:
+<img src="captures/img_2.png">
+<br>
+<img src="captures/img_3.png">
+
+<br>
+
 ## K-Means Clustering
+
 ### Overview
 The K-Means Clustering example showcases the use of Spark MLlib to perform clustering on customer data based on Age, Annual Income, and Spending Score.
 
@@ -31,10 +37,13 @@ Make sure you have the following installed:
 
 - Java
 - Apache Spark
-- Maven (if building the project)
+- Maven 
 ### Getting Started
 1. Clone the repository:
 2. Download the Mall_Customers.csv dataset and place it in the project directory.
 3. Run the Main class to perform K-Means clustering:
 
 ### Outpute:
+<img src="captures/img.png">
+<br>
+<img src="captures/img_1.png">
