@@ -28,7 +28,7 @@ public class Main {
         KMeansModel model=kMeans.fit(normalizedDS);
         Dataset<Row> prediction=model.transform(normalizedDS);
         prediction.show(100);
-        ClusteringEvaluator evaluator=new ClusteringEvaluator();
+        ClusteringEvaluator evaluator=new ClusteringEvaluator().setPredictionCol("cluster").setFeaturesCol("normalizedFeatures");
         double score=evaluator.evaluate(prediction);
         System.out.println("Score = "+score);
     }
