@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spark-ML-LinearREgression" />
+        <module name="Spark-ML-LinearREgression-Kmeans" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spark-ML-LinearREgression" target="1.8" />
+      <module name="Spark-ML-LinearREgression&amp;Kmeans" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
